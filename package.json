@@ -1,0 +1,14 @@
+{
+  "name": "avatar-viewer",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Roblox avatar viewer with backend benchmark pipeline and observability",
+  "scripts": {
+    "dev": "node server/index.js",
+    "start": "node server/index.js",
+    "check": "node --check server/index.js && node --check server/job-queue.js && node --check server/job-store.js && node --check server/metrics.js && node --check server/pipeline.js && node --check server/slo.js && node --check server/logger.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,82 +1,126 @@
 # Roblox Avatar 3D Viewer
 
-A browser-based 3D viewer for inspecting Roblox avatar rigs, layered clothing, and cage deformers. Built with Three.js.
+A browser-based 3D viewer for inspecting Roblox avatar rigs, layered clothing, and cage deformers, now with a backend benchmark pipeline, retries, metrics, and SLO alerting.
 
 ![Screenshot](https://img.shields.io/badge/Three.js-r167-blue)
 
+## What Changed
+
+- Frontend refactor from single-file inline app to split architecture:
+  - `index.html` (shell + layout)
+  - `styles/app.css` (styles)
+  - `js/viewer-app.js` (viewer logic)
+  - `js/services/backend-api.js` (API client)
+  - `js/ui/ops-panel.js` (operations UI)
+  - `js/main.js` (module bootstrap)
+- Backend service (`server/`) for:
+  - manifest serving (`/api/manifest`)
+  - asynchronous benchmark jobs (`/api/pipeline/benchmark`)
+  - retry/backoff queue workers
+  - rolling metrics (`/api/metrics`)
+  - SLO evaluation + alert lifecycle (`/api/health`, `/api/slo`, `/api/alerts`)
+- New in-app Operations panel for queueing backend jobs and monitoring queue depth, API p95, success rate, retries, and active alerts.
+
 ## Features
 
-- **Inspector** - Per-mesh render stats: triangles, vertices, draw calls, GPU memory, materials, textures, bones, skinning weights
-- **Stress Test** - Clone avatars (1-49x) with live FPS, CPU/GPU render time, JS heap, and frame budget bar
-- **Budget Mode** - Triangle budget breakdown by body part
-- **Report Mode** - Full performance report card
-- **Procedural Animations** - Idle, Run, and Jump (no animation files needed)
-- **Visibility Overlay** - Heatmap shader showing front-facing triangle orientation
-- **LOD Preview** - Side-by-side LOD comparison
+- **Inspector**: Per-mesh render stats (triangles, vertices, draw calls, GPU memory, materials, textures, bones)
+- **Stress Test**: Clone avatars (1-49x) with FPS, CPU/GPU render time, heap, and frame budget visualization
+- **Budget Mode**: Budget risk summary by geometry and memory thresholds
+- **Report Mode**: Batch benchmark reporting with CSV/JSON export
+- **Procedural Animations**: Idle, Run, and Jump (no animation files)
+- **Visibility Overlay**: Front-facing triangle heatmap
+- **LOD Preview**: Side-by-side LOD inspection
+- **Ops Control Plane**: Backend queue jobs, retries, SLO/alerts, and health monitoring
 
 ## Quick Start
 
 ```bash
-git clone <repo-url>
 cd avatar_viewer
-python3 -m http.server 8090
+npm run dev
 ```
 
-Then open [http://localhost:8090](http://localhost:8090)
-
-### Alternative servers
-
-```bash
-# Node.js (npx, no install needed)
-npx serve -p 8090
-
-# Node.js http-server
-npx http-server -p 8090
-```
-
-> **Note**: You must use an HTTP server. Opening `index.html` directly via `file://` won't work due to browser fetch/CORS restrictions.
+Open [http://localhost:8090](http://localhost:8090)
 
 ## Project Structure
 
-```
+```text
 avatar_viewer/
-├── index.html          # Single-file app (HTML + CSS + JS)
-├── manifest.json       # Model metadata catalog
+├── index.html
+├── manifest.json
+├── styles/
+│   └── app.css
+├── js/
+│   ├── main.js
+│   ├── viewer-app.js
+│   ├── services/
+│   │   └── backend-api.js
+│   └── ui/
+│       └── ops-panel.js
+├── server/
+│   ├── index.js
+│   ├── job-queue.js
+│   ├── job-store.js
+│   ├── logger.js
+│   ├── metrics.js
+│   ├── pipeline.js
+│   └── slo.js
+├── data/
+│   └── jobs/               # runtime job snapshots
 ├── models/
-│   ├── rigs/           # 9 avatar rig files (.glb)
-│   ├── clothing/       # 33 layered clothing files (.glb)
-│   └── cage_deformers/ # 8 cage deformer test meshes (.glb)
-├── convert_assets.py   # Build tool (FBX → GLB converter, optional)
-├── .gitignore
+│   ├── rigs/
+│   ├── clothing/
+│   └── cage_deformers/
+├── convert_assets.py
 └── README.md
 ```
 
-## How It Works
+## Backend API
 
-The entire app is a single `index.html` file (~3000 lines) with embedded CSS and JavaScript. It uses:
+- `GET /api/health` - process health, queue snapshot, rolling metrics, SLO state, active alerts
+- `GET /api/manifest` - manifest payload consumed by frontend
+- `POST /api/pipeline/benchmark` - enqueue benchmark pipeline job
+- `GET /api/pipeline/jobs?limit=20` - recent jobs
+- `GET /api/pipeline/jobs/:id` - detailed job status/result
+- `GET /api/slo` - SLO evaluation against rolling metrics
+- `GET /api/alerts` - active and recent alert objects
+- `GET /api/metrics` - Prometheus-style text metrics
 
-- [Three.js r167](https://threejs.org/) via CDN (jsdelivr) for WebGL rendering
-- GLTFLoader for loading `.glb` models
-- OrbitControls for camera interaction
-- Custom procedural animation system (no animation clips)
-- WebGL GPU timer queries for render profiling
+### Example: enqueue a benchmark job
 
-All 50 included `.glb` models are Roblox avatar assets converted from FBX.
+```bash
+curl -sS -X POST http://localhost:8090/api/pipeline/benchmark \
+  -H 'Content-Type: application/json' \
+  -d '{"categories":["rigs"],"maxModels":8,"shards":2,"injectTransientFailure":false}'
+```
 
-## Requirements
+## Queue, Retry, and SLO Design
 
-- A modern browser with WebGL2 support (Chrome, Firefox, Edge, Safari)
-- Internet connection (Three.js is loaded from CDN)
-- Any HTTP server to serve the files
+- **Queue model**: in-process async workers with configurable concurrency (`JOB_CONCURRENCY`)
+- **Retry policy**: exponential backoff (`JOB_BASE_RETRY_MS`) up to `JOB_MAX_ATTEMPTS`
+- **Persistence**: each job state is written to `data/jobs/<id>.json`
+- **Rolling metrics window**: 15 minutes for API and job metrics
+- **SLO checks**:
+  - API availability >= 99.5%
+  - API latency p95 <= 250ms
+  - Job success rate >= 99%
+  - Queue wait p95 <= 2000ms
+
+## Environment Variables
+
+- `PORT` (default `8090`)
+- `JOB_CONCURRENCY` (default `2`)
+- `JOB_MAX_ATTEMPTS` (default `3`)
+- `JOB_BASE_RETRY_MS` (default `600`)
 
 ## Build Tool (Optional)
 
-`convert_assets.py` is the script that was used to convert the original FBX source files to GLB and generate `manifest.json`. You don't need to run it — the converted models are already included.
+`convert_assets.py` converts FBX source assets into `.glb` and regenerates `manifest.json`.
 
-If you do want to regenerate from FBX sources, it requires:
+Requirements:
+
 - Python 3.9+
-- [assimp](https://github.com/assimp/assimp) CLI tool (`brew install assimp` on macOS)
-- Source FBX files (not included in this repo)
+- [assimp](https://github.com/assimp/assimp) CLI (`brew install assimp` on macOS)
+- Source FBX files (not included)
 
 ## License
 

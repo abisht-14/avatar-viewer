@@ -12,3 +12,10 @@ Thumbs.db
 # Python
 __pycache__/
 *.pyc
+
+# Node
+node_modules/
+
+# Runtime data
+/data/*.log
+/data/jobs/*.json

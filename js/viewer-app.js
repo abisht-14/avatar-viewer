@@ -1483,6 +1483,7 @@ document.getElementById('stress-anim-toggle').addEventListener('change', (e) => 
 function setupLodPreview() {
   if (lodActive || !currentModel || !currentEntry) return;
   lodActive = true;
+  document.body.classList.add('lod-preview-active');
 
   const vp = document.getElementById('viewport');
   const split = document.createElement('div');
@@ -1631,6 +1632,7 @@ function setupLodPreview() {
 function teardownLodPreview() {
   if (!lodActive) return;
   lodActive = false;
+  document.body.classList.remove('lod-preview-active');
 
   if (lodAnimFrame) {
     cancelAnimationFrame(lodAnimFrame);
@@ -1835,6 +1837,16 @@ function renderBudgetDashboard() {
 let benchmarkResults = [];
 let benchmarkRunning = false;
 
+function getReportStatusCriteriaText() {
+  return `Status criteria: PASS = all metrics in green. WARN = at least one yellow and no red. FAIL = at least one red. ` +
+    `Thresholds: Tris <= ${BUDGETS.triangles.green}/${BUDGETS.triangles.yellow}, ` +
+    `Verts <= ${BUDGETS.vertices.green}/${BUDGETS.vertices.yellow}, ` +
+    `Joints <= ${BUDGETS.joints.green}/${BUDGETS.joints.yellow}, ` +
+    `Materials <= ${BUDGETS.materials.green}/${BUDGETS.materials.yellow}, ` +
+    `Meshes <= ${BUDGETS.meshes.green}/${BUDGETS.meshes.yellow}, ` +
+    `GPU KB <= ${BUDGETS.gpuMemKB.green}/${BUDGETS.gpuMemKB.yellow}.`;
+}
+
 function renderReportPanel() {
   const container = document.getElementById('report-container');
   if (benchmarkResults.length > 0) {
@@ -1849,6 +1861,7 @@ function renderReportPanel() {
         <label>Frames per model: <input type="number" id="bench-frames" value="120" min="30" max="600"></label>
       </div>
     </div>
+    <div class="report-criteria">${getReportStatusCriteriaText()}</div>
     <div class="progress-bar-container" id="bench-progress">
       <div class="progress-bar-track"><div class="progress-bar-fill" id="bench-progress-fill"></div></div>
       <div class="progress-label" id="bench-progress-label">Preparing...</div>
@@ -1924,12 +1937,18 @@ function benchmarkSingleModel(entry, frameCount) {
       scene.add(model);
 
       let frames = 0;
-      const fpsSamples = [];
+      const frameIntervals = [];
       const cpuSamples = [];
       let dcTotal = 0;
       let trisTotal = 0;
+      let lastFrameTs = null;
 
-      function benchFrame() {
+      function benchFrame(ts) {
+        if (lastFrameTs !== null) {
+          frameIntervals.push(ts - lastFrameTs);
+        }
+        lastFrameTs = ts;
+
         const fStart = performance.now();
         renderer.render(scene, camera);
         const fEnd = performance.now();
@@ -1956,8 +1975,14 @@ function benchmarkSingleModel(entry, frameCount) {
           if (prevModel) scene.add(prevModel);
 
           const avgCpu = cpuSamples.reduce((a, b) => a + b, 0) / cpuSamples.length;
-          const avgFps = 1000 / avgCpu;
-          const minFps = 1000 / Math.max(...cpuSamples);
+          const avgFrameMs = frameIntervals.length > 0
+            ? frameIntervals.reduce((a, b) => a + b, 0) / frameIntervals.length
+            : avgCpu;
+          const worstFrameMs = frameIntervals.length > 0
+            ? Math.max(...frameIntervals)
+            : avgCpu;
+          const avgFps = avgFrameMs > 0 ? 1000 / avgFrameMs : 0;
+          const minFps = worstFrameMs > 0 ? 1000 / worstFrameMs : 0;
 
           resolve({
             name: entry.name,
@@ -2041,6 +2066,7 @@ function renderReportResults() {
       <button class="report-btn secondary" id="export-json-btn">Export JSON</button>
       <button class="report-btn secondary" id="export-csv-btn">Export CSV</button>
     </div>
+    <div class="report-criteria">${getReportStatusCriteriaText()}</div>
     <div class="progress-bar-container" id="bench-progress">
       <div class="progress-bar-track"><div class="progress-bar-fill" id="bench-progress-fill" style="width:100%"></div></div>
       <div class="progress-label" id="bench-progress-label">Complete!</div>

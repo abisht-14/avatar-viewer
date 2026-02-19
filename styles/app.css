@@ -860,6 +860,16 @@ body {
   font-family: 'SF Mono', 'Fira Code', monospace;
   font-size: 12px;
 }
+.report-criteria {
+  margin-bottom: 12px;
+  padding: 8px 10px;
+  border: 1px solid #2a2a4a;
+  border-radius: 6px;
+  background: #16162a;
+  color: #8f98cc;
+  font-size: 11px;
+  line-height: 1.35;
+}
 .progress-bar-container { width: 100%; margin-bottom: 16px; display: none; }
 .progress-bar-track {
   height: 8px;
@@ -1004,6 +1014,8 @@ body.mode-budget #panel { display: none; }
 body.mode-budget #anim-toolbar { display: none; }
 body.mode-report #panel { display: none; }
 body.mode-report #anim-toolbar { display: none; }
+body.mode-budget #visibility-toggle { display: none; }
+body.mode-report #visibility-toggle { display: none; }
 body.mode-inspector #budget-container,
 body.mode-inspector #report-container,
 body.mode-stress #budget-container,
@@ -1032,6 +1044,10 @@ body.mode-report #budget-container { display: none !important; }
 }
 .viewport-float-btn:hover { border-color: #ee8833; color: #fff; }
 .viewport-float-btn.active { background: #ee8833; color: #fff; border-color: #ee8833; }
+body.lod-preview-active .viewport-float-btn {
+  top: 8px;
+  right: 132px;
+}
 
 /* Operations Control Plane */
 .ops-panel {

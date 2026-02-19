@@ -1,0 +1,5228 @@
+{
+  "rigs": [
+    {
+      "id": "R15_Block",
+      "name": "R15 Block",
+      "file": "models/rigs/R15_Block.glb",
+      "category": "rigs",
+      "file_size_mb": 0.34,
+      "total_vertices": 3262,
+      "total_faces": 2276,
+      "mesh_count": 12,
+      "node_count": 50,
+      "real_joint_count": 17,
+      "max_depth": 9,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 233.7,
+      "vertex_buffer_kb": 203.9,
+      "index_buffer_kb": 26.7,
+      "bone_matrices_kb": 3.1,
+      "meshes": [
+        {
+          "name": "Root_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 97,
+          "bones": 0,
+          "faces": 62
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 277,
+          "bones": 0,
+          "faces": 268
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 129,
+          "bones": 0,
+          "faces": 64
+        },
+        {
+          "name": "RightGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 264,
+          "bones": 0,
+          "faces": 160
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 257,
+          "bones": 0,
+          "faces": 156
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 303,
+          "bones": 0,
+          "faces": 196
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 303,
+          "bones": 0,
+          "faces": 196
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 885,
+          "bones": 0,
+          "faces": 846
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 129,
+          "bones": 0,
+          "faces": 52
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 138,
+          "bones": 0,
+          "faces": 52
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "R15_Lola",
+      "name": "R15 Lola",
+      "file": "models/rigs/R15_Lola.glb",
+      "category": "rigs",
+      "file_size_mb": 12.35,
+      "total_vertices": 7408,
+      "total_faces": 9837,
+      "mesh_count": 15,
+      "node_count": 168,
+      "real_joint_count": 17,
+      "max_depth": 30,
+      "material_count": 1,
+      "texture_count": 1,
+      "total_gpu_memory_kb": 588.8,
+      "vertex_buffer_kb": 463.0,
+      "index_buffer_kb": 115.3,
+      "bone_matrices_kb": 10.5,
+      "meshes": [
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 204,
+          "bones": 0,
+          "faces": 302
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 138,
+          "bones": 0,
+          "faces": 208
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 122,
+          "bones": 0,
+          "faces": 176
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 203,
+          "bones": 0,
+          "faces": 302
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 139,
+          "bones": 0,
+          "faces": 208
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 121,
+          "bones": 0,
+          "faces": 176
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 2592,
+          "bones": 0,
+          "faces": 3355
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 504,
+          "bones": 0,
+          "faces": 728
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 499,
+          "bones": 0,
+          "faces": 616
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 173,
+          "bones": 0,
+          "faces": 266
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 504,
+          "bones": 0,
+          "faces": 728
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 397,
+          "bones": 0,
+          "faces": 590
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 175,
+          "bones": 0,
+          "faces": 266
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 1267,
+          "bones": 0,
+          "faces": 1544
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 370,
+          "bones": 0,
+          "faces": 372
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "R15_Man",
+      "name": "R15 Man",
+      "file": "models/rigs/R15_Man.glb",
+      "category": "rigs",
+      "file_size_mb": 0.39,
+      "total_vertices": 4633,
+      "total_faces": 3954,
+      "mesh_count": 17,
+      "node_count": 52,
+      "real_joint_count": 17,
+      "max_depth": 9,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 339.1,
+      "vertex_buffer_kb": 289.6,
+      "index_buffer_kb": 46.3,
+      "bone_matrices_kb": 3.2,
+      "meshes": [
+        {
+          "name": "Root_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 257,
+          "bones": 0,
+          "faces": 234
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 224,
+          "bones": 0,
+          "faces": 172
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 348,
+          "bones": 0,
+          "faces": 224
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 264,
+          "bones": 0,
+          "faces": 238
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 168,
+          "bones": 0,
+          "faces": 196
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 153,
+          "bones": 0,
+          "faces": 168
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 264,
+          "bones": 0,
+          "faces": 238
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 162,
+          "bones": 0,
+          "faces": 196
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 146,
+          "bones": 0,
+          "faces": 168
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 322,
+          "bones": 0,
+          "faces": 216
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 609,
+          "bones": 0,
+          "faces": 678
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 258,
+          "bones": 0,
+          "faces": 234
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 223,
+          "bones": 0,
+          "faces": 172
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 349,
+          "bones": 0,
+          "faces": 224
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 406,
+          "bones": 0,
+          "faces": 372
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "R15_Mesh",
+      "name": "R15 Mesh",
+      "file": "models/rigs/R15_Mesh.glb",
+      "category": "rigs",
+      "file_size_mb": 0.34,
+      "total_vertices": 3251,
+      "total_faces": 3298,
+      "mesh_count": 19,
+      "node_count": 50,
+      "real_joint_count": 17,
+      "max_depth": 9,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 245.0,
+      "vertex_buffer_kb": 203.2,
+      "index_buffer_kb": 38.6,
+      "bone_matrices_kb": 3.1,
+      "meshes": [
+        {
+          "name": "Root_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 122,
+          "bones": 0,
+          "faces": 128
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 145,
+          "bones": 0,
+          "faces": 188
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 147,
+          "bones": 0,
+          "faces": 192
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 885,
+          "bones": 0,
+          "faces": 846
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 135,
+          "bones": 0,
+          "faces": 134
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 8,
+          "bones": 0,
+          "faces": 4
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 99,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 133,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 135,
+          "bones": 0,
+          "faces": 134
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 6,
+          "bones": 0,
+          "faces": 4
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 97,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 126,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 201,
+          "bones": 0,
+          "faces": 274
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 123,
+          "bones": 0,
+          "faces": 128
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 143,
+          "bones": 0,
+          "faces": 188
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 147,
+          "bones": 0,
+          "faces": 192
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 119,
+          "bones": 0,
+          "faces": 158
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "R15_Rthro_Normal",
+      "name": "R15 Rthro Normal",
+      "file": "models/rigs/R15_Rthro_Normal.glb",
+      "category": "rigs",
+      "file_size_mb": 0.48,
+      "total_vertices": 6385,
+      "total_faces": 5838,
+      "mesh_count": 17,
+      "node_count": 52,
+      "real_joint_count": 17,
+      "max_depth": 9,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 470.7,
+      "vertex_buffer_kb": 399.1,
+      "index_buffer_kb": 68.4,
+      "bone_matrices_kb": 3.2,
+      "meshes": [
+        {
+          "name": "Root_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 290,
+          "bones": 0,
+          "faces": 228
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 339,
+          "bones": 0,
+          "faces": 292
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 112,
+          "bones": 0,
+          "faces": 166
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 290,
+          "bones": 0,
+          "faces": 228
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 340,
+          "bones": 0,
+          "faces": 292
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 112,
+          "bones": 0,
+          "faces": 166
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 299,
+          "bones": 0,
+          "faces": 336
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 175,
+          "bones": 0,
+          "faces": 172
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 648,
+          "bones": 0,
+          "faces": 569
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 299,
+          "bones": 0,
+          "faces": 336
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 175,
+          "bones": 0,
+          "faces": 172
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 648,
+          "bones": 0,
+          "faces": 569
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 581,
+          "bones": 0,
+          "faces": 806
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 955,
+          "bones": 0,
+          "faces": 774
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 642,
+          "bones": 0,
+          "faces": 508
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "R15_Rthro_Slender",
+      "name": "R15 Rthro Slender",
+      "file": "models/rigs/R15_Rthro_Slender.glb",
+      "category": "rigs",
+      "file_size_mb": 0.45,
+      "total_vertices": 5776,
+      "total_faces": 5676,
+      "mesh_count": 17,
+      "node_count": 52,
+      "real_joint_count": 17,
+      "max_depth": 9,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 430.8,
+      "vertex_buffer_kb": 361.0,
+      "index_buffer_kb": 66.5,
+      "bone_matrices_kb": 3.2,
+      "meshes": [
+        {
+          "name": "Root_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 151,
+          "bones": 0,
+          "faces": 172
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 495,
+          "bones": 0,
+          "faces": 404
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 142,
+          "bones": 0,
+          "faces": 194
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 151,
+          "bones": 0,
+          "faces": 172
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 494,
+          "bones": 0,
+          "faces": 404
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 141,
+          "bones": 0,
+          "faces": 194
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 320,
+          "bones": 0,
+          "faces": 376
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 368,
+          "bones": 0,
+          "faces": 274
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 223,
+          "bones": 0,
+          "faces": 226
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 320,
+          "bones": 0,
+          "faces": 376
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 368,
+          "bones": 0,
+          "faces": 274
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 223,
+          "bones": 0,
+          "faces": 226
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 266,
+          "bones": 0,
+          "faces": 348
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 1349,
+          "bones": 0,
+          "faces": 1452
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 285,
+          "bones": 0,
+          "faces": 360
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "R15_Woman",
+      "name": "R15 Woman",
+      "file": "models/rigs/R15_Woman.glb",
+      "category": "rigs",
+      "file_size_mb": 0.38,
+      "total_vertices": 3526,
+      "total_faces": 3544,
+      "mesh_count": 19,
+      "node_count": 52,
+      "real_joint_count": 17,
+      "max_depth": 9,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 265.2,
+      "vertex_buffer_kb": 220.4,
+      "index_buffer_kb": 41.5,
+      "bone_matrices_kb": 3.2,
+      "meshes": [
+        {
+          "name": "Root_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 4,
+          "bones": 0,
+          "faces": 3
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 239,
+          "bones": 0,
+          "faces": 228
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 144,
+          "bones": 0,
+          "faces": 124
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 211,
+          "bones": 0,
+          "faces": 222
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 206,
+          "bones": 0,
+          "faces": 254
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 118,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 128,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 207,
+          "bones": 0,
+          "faces": 254
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 114,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 122,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 316,
+          "bones": 0,
+          "faces": 216
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 453,
+          "bones": 0,
+          "faces": 598
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 6,
+          "bones": 0,
+          "faces": 5
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 235,
+          "bones": 0,
+          "faces": 226
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 144,
+          "bones": 0,
+          "faces": 124
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 210,
+          "bones": 0,
+          "faces": 222
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 189,
+          "bones": 0,
+          "faces": 252
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "S1_Lola",
+      "name": "S1 Lola",
+      "file": "models/rigs/S1_Lola.glb",
+      "category": "rigs",
+      "file_size_mb": 1.88,
+      "total_vertices": 6342,
+      "total_faces": 9464,
+      "mesh_count": 1,
+      "node_count": 19,
+      "real_joint_count": 17,
+      "max_depth": 8,
+      "material_count": 1,
+      "texture_count": 1,
+      "total_gpu_memory_kb": 508.5,
+      "vertex_buffer_kb": 396.4,
+      "index_buffer_kb": 110.9,
+      "bone_matrices_kb": 1.2,
+      "meshes": [
+        {
+          "name": "Lola_Geo",
+          "vertices": 6342,
+          "bones": 16,
+          "faces": 9464
+        }
+      ],
+      "warnings": []
+    }
+  ],
+  "clothing": [
+    {
+      "id": "LC_BazookaBones_Cage",
+      "name": "BazookaBones Cage",
+      "file": "models/clothing/LC_BazookaBones_Cage.glb",
+      "category": "clothing",
+      "file_size_mb": 1.64,
+      "total_vertices": 34186,
+      "total_faces": 12370,
+      "mesh_count": 32,
+      "node_count": 72,
+      "real_joint_count": 33,
+      "max_depth": 9,
+      "material_count": 8,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 2286.1,
+      "vertex_buffer_kb": 2136.6,
+      "index_buffer_kb": 145.0,
+      "bone_matrices_kb": 4.5,
+      "meshes": [
+        {
+          "name": "Root_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 891,
+          "bones": 0,
+          "faces": 299
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 2059,
+          "bones": 0,
+          "faces": 690
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 941,
+          "bones": 0,
+          "faces": 314
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 892,
+          "bones": 0,
+          "faces": 299
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 2064,
+          "bones": 0,
+          "faces": 690
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 942,
+          "bones": 0,
+          "faces": 314
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 4363,
+          "bones": 0,
+          "faces": 1456
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 1043,
+          "bones": 0,
+          "faces": 348
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 2084,
+          "bones": 0,
+          "faces": 696
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 880,
+          "bones": 0,
+          "faces": 294
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 1044,
+          "bones": 0,
+          "faces": 348
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 2087,
+          "bones": 0,
+          "faces": 696
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 882,
+          "bones": 0,
+          "faces": 294
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 6636,
+          "bones": 0,
+          "faces": 2216
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 1506,
+          "bones": 0,
+          "faces": 502
+        },
+        {
+          "name": "Head_OuterCage",
+          "vertices": 1278,
+          "bones": 0,
+          "faces": 630
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "LeftUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "UpperTorso_OuterCage",
+          "vertices": 822,
+          "bones": 0,
+          "faces": 412
+        },
+        {
+          "name": "LeftLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftUpperLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LowerTorso_OuterCage",
+          "vertices": 292,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "LeftLowerLeg_OuterCage",
+          "vertices": 276,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 230,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "RightHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "RightUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightLowerLeg_OuterCage",
+          "vertices": 276,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightFoot_OuterCage",
+          "vertices": 230,
+          "bones": 0,
+          "faces": 116
+        }
+      ],
+      "warnings": [
+        "HIGH VERTEX COUNT: 34,186 (budget: 20,000)",
+        "MANY MATERIALS: 8 (budget: 5)",
+        "MANY MESHES: 32 (may cause draw call overhead)"
+      ]
+    },
+    {
+      "id": "LC_ClassicFemale",
+      "name": "ClassicFemale",
+      "file": "models/clothing/LC_ClassicFemale.glb",
+      "category": "clothing",
+      "file_size_mb": 1.18,
+      "total_vertices": 11811,
+      "total_faces": 11670,
+      "mesh_count": 32,
+      "node_count": 73,
+      "real_joint_count": 34,
+      "max_depth": 10,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 879.5,
+      "vertex_buffer_kb": 738.2,
+      "index_buffer_kb": 136.8,
+      "bone_matrices_kb": 4.6,
+      "meshes": [
+        {
+          "name": "FaceFront_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightFoot_OuterCage",
+          "vertices": 232,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "RightLowerLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightUpperLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 232,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "LeftLowerLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LowerTorso_OuterCage",
+          "vertices": 296,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "LeftUpperLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "UpperTorso_OuterCage",
+          "vertices": 824,
+          "bones": 0,
+          "faces": 412
+        },
+        {
+          "name": "LeftUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "Head_OuterCage",
+          "vertices": 1278,
+          "bones": 0,
+          "faces": 630
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 183,
+          "bones": 3,
+          "faces": 280
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 202,
+          "bones": 4,
+          "faces": 312
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 309,
+          "bones": 4,
+          "faces": 496
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 307,
+          "bones": 4,
+          "faces": 472
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 212,
+          "bones": 4,
+          "faces": 344
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 183,
+          "bones": 3,
+          "faces": 256
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 298,
+          "bones": 6,
+          "faces": 496
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 183,
+          "bones": 3,
+          "faces": 256
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 444,
+          "bones": 3,
+          "faces": 644
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 215,
+          "bones": 4,
+          "faces": 344
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 303,
+          "bones": 6,
+          "faces": 496
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 442,
+          "bones": 3,
+          "faces": 644
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 206,
+          "bones": 3,
+          "faces": 312
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 186,
+          "bones": 3,
+          "faces": 280
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 2248,
+          "bones": 1,
+          "faces": 3124
+        }
+      ],
+      "warnings": [
+        "MANY MESHES: 32 (may cause draw call overhead)"
+      ]
+    },
+    {
+      "id": "LC_ClassicMale",
+      "name": "ClassicMale",
+      "file": "models/clothing/LC_ClassicMale.glb",
+      "category": "clothing",
+      "file_size_mb": 0.82,
+      "total_vertices": 12107,
+      "total_faces": 11646,
+      "mesh_count": 34,
+      "node_count": 83,
+      "real_joint_count": 36,
+      "max_depth": 10,
+      "material_count": 4,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 898.4,
+      "vertex_buffer_kb": 756.7,
+      "index_buffer_kb": 136.5,
+      "bone_matrices_kb": 5.2,
+      "meshes": [
+        {
+          "name": "FaceFront_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftFoot_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightFoot_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 412,
+          "bones": 7,
+          "faces": 572
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 435,
+          "bones": 4,
+          "faces": 730
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 404,
+          "bones": 7,
+          "faces": 572
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 368,
+          "bones": 4,
+          "faces": 510
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 392,
+          "bones": 3,
+          "faces": 542
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 249,
+          "bones": 3,
+          "faces": 340
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 323,
+          "bones": 3,
+          "faces": 450
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 218,
+          "bones": 2,
+          "faces": 344
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 274,
+          "bones": 4,
+          "faces": 380
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 219,
+          "bones": 2,
+          "faces": 344
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 394,
+          "bones": 3,
+          "faces": 542
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 251,
+          "bones": 3,
+          "faces": 340
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 278,
+          "bones": 4,
+          "faces": 380
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 331,
+          "bones": 3,
+          "faces": 450
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 1322,
+          "bones": 1,
+          "faces": 2012
+        },
+        {
+          "name": "Head_OuterCage",
+          "vertices": 1225,
+          "bones": 0,
+          "faces": 630
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "LeftUpperArm_OuterCage",
+          "vertices": 233,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "UpperTorso_OuterCage",
+          "vertices": 800,
+          "bones": 0,
+          "faces": 412
+        },
+        {
+          "name": "LeftLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftUpperLeg_OuterCage",
+          "vertices": 276,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LowerTorso_OuterCage",
+          "vertices": 296,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "LeftLowerLeg_OuterCage",
+          "vertices": 270,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 225,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "RightHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "RightUpperArm_OuterCage",
+          "vertices": 233,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperLeg_OuterCage",
+          "vertices": 276,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightLowerLeg_OuterCage",
+          "vertices": 270,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightFoot_OuterCage",
+          "vertices": 225,
+          "bones": 0,
+          "faces": 116
+        }
+      ],
+      "warnings": [
+        "MANY MESHES: 34 (may cause draw call overhead)"
+      ]
+    },
+    {
+      "id": "LCL_Hair_Female_004",
+      "name": "Hair Female 004",
+      "file": "models/clothing/LCL_Hair_Female_004.glb",
+      "category": "clothing",
+      "file_size_mb": 0.57,
+      "total_vertices": 11713,
+      "total_faces": 6482,
+      "mesh_count": 4,
+      "node_count": 23,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 809.5,
+      "vertex_buffer_kb": 732.1,
+      "index_buffer_kb": 76.0,
+      "bone_matrices_kb": 1.4,
+      "meshes": [
+        {
+          "name": "Hair_Female_004",
+          "vertices": 667,
+          "bones": 1,
+          "faces": 990
+        },
+        {
+          "name": "Hair_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Hair_Female_004_InnerCage",
+          "vertices": 5403,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Hair_Female_004_OuterCage",
+          "vertices": 5403,
+          "bones": 0,
+          "faces": 2690
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LCL_Hair_Female_005",
+      "name": "Hair Female 005",
+      "file": "models/clothing/LCL_Hair_Female_005.glb",
+      "category": "clothing",
+      "file_size_mb": 0.3,
+      "total_vertices": 10896,
+      "total_faces": 6492,
+      "mesh_count": 4,
+      "node_count": 23,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 758.5,
+      "vertex_buffer_kb": 681.0,
+      "index_buffer_kb": 76.1,
+      "bone_matrices_kb": 1.4,
+      "meshes": [
+        {
+          "name": "Hair_Female_005",
+          "vertices": 742,
+          "bones": 1,
+          "faces": 1000
+        },
+        {
+          "name": "Hair_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Hair_Female_005_InnerCage",
+          "vertices": 4957,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Hair_Female_005_OuterCage",
+          "vertices": 4957,
+          "bones": 0,
+          "faces": 2690
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LCL_Hair_Male_003",
+      "name": "Hair Male 003",
+      "file": "models/clothing/LCL_Hair_Male_003.glb",
+      "category": "clothing",
+      "file_size_mb": 0.31,
+      "total_vertices": 10802,
+      "total_faces": 6492,
+      "mesh_count": 4,
+      "node_count": 23,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 752.6,
+      "vertex_buffer_kb": 675.1,
+      "index_buffer_kb": 76.1,
+      "bone_matrices_kb": 1.4,
+      "meshes": [
+        {
+          "name": "Hair_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Hair_Male_003_InnerCage",
+          "vertices": 4957,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Hair_Male_003_OuterCage",
+          "vertices": 4957,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Hair_Male_003",
+          "vertices": 648,
+          "bones": 1,
+          "faces": 1000
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LCL_Hair_Male_004",
+      "name": "Hair Male 004",
+      "file": "models/clothing/LCL_Hair_Male_004.glb",
+      "category": "clothing",
+      "file_size_mb": 0.56,
+      "total_vertices": 11609,
+      "total_faces": 6482,
+      "mesh_count": 4,
+      "node_count": 23,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 803.0,
+      "vertex_buffer_kb": 725.6,
+      "index_buffer_kb": 76.0,
+      "bone_matrices_kb": 1.4,
+      "meshes": [
+        {
+          "name": "Hair_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Hair_Male_004_InnerCage",
+          "vertices": 5403,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Hair_Male_004_OuterCage",
+          "vertices": 5403,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Hair_Male_004",
+          "vertices": 563,
+          "bones": 1,
+          "faces": 990
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LCL_Jacket_Hoodie_001",
+      "name": "Jacket Hoodie 001",
+      "file": "models/clothing/LCL_Jacket_Hoodie_001.glb",
+      "category": "clothing",
+      "file_size_mb": 0.69,
+      "total_vertices": 12165,
+      "total_faces": 6984,
+      "mesh_count": 4,
+      "node_count": 27,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 843.8,
+      "vertex_buffer_kb": 760.3,
+      "index_buffer_kb": 81.8,
+      "bone_matrices_kb": 1.7,
+      "meshes": [
+        {
+          "name": "Jacket_Hoodie_001",
+          "vertices": 1121,
+          "bones": 9,
+          "faces": 1492
+        },
+        {
+          "name": "BodyFront_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Jacket_Hoodie_001_InnerCage",
+          "vertices": 5403,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Jacket_Hoodie_001_OuterCage",
+          "vertices": 5401,
+          "bones": 0,
+          "faces": 2690
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LCL_Jacket_PufferCoat_001",
+      "name": "Jacket PufferCoat 001",
+      "file": "models/clothing/LCL_Jacket_PufferCoat_001.glb",
+      "category": "clothing",
+      "file_size_mb": 0.33,
+      "total_vertices": 12013,
+      "total_faces": 6988,
+      "mesh_count": 4,
+      "node_count": 27,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 834.4,
+      "vertex_buffer_kb": 750.8,
+      "index_buffer_kb": 81.9,
+      "bone_matrices_kb": 1.7,
+      "meshes": [
+        {
+          "name": "BodyFront_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Jacket_PufferCoat_001_InnerCage",
+          "vertices": 5392,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Jacket_PufferCoat_001_OuterCage",
+          "vertices": 5392,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Jacket_PufferCoat_001",
+          "vertices": 989,
+          "bones": 9,
+          "faces": 1496
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LayeredClothingTemplate",
+      "name": "LayeredClothingTemplate",
+      "file": "models/clothing/LayeredClothingTemplate.glb",
+      "category": "clothing",
+      "file_size_mb": 0.31,
+      "total_vertices": 5197,
+      "total_faces": 2802,
+      "mesh_count": 2,
+      "node_count": 32,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 359.6,
+      "vertex_buffer_kb": 324.8,
+      "index_buffer_kb": 32.8,
+      "bone_matrices_kb": 2.0,
+      "meshes": [
+        {
+          "name": "YourClothingName__OuterCage",
+          "vertices": 4957,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Hat_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LC_MagmaFiend_Cage",
+      "name": "MagmaFiend Cage",
+      "file": "models/clothing/LC_MagmaFiend_Cage.glb",
+      "category": "clothing",
+      "file_size_mb": 0.55,
+      "total_vertices": 10283,
+      "total_faces": 5804,
+      "mesh_count": 32,
+      "node_count": 78,
+      "real_joint_count": 33,
+      "max_depth": 11,
+      "material_count": 7,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 715.6,
+      "vertex_buffer_kb": 642.7,
+      "index_buffer_kb": 68.0,
+      "bone_matrices_kb": 4.9,
+      "meshes": [
+        {
+          "name": "FaceFront_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 471,
+          "bones": 0,
+          "faces": 438
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 432,
+          "bones": 0,
+          "faces": 250
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 359,
+          "bones": 0,
+          "faces": 232
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 330,
+          "bones": 0,
+          "faces": 238
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 428,
+          "bones": 0,
+          "faces": 250
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 353,
+          "bones": 0,
+          "faces": 232
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 320,
+          "bones": 0,
+          "faces": 238
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 254,
+          "bones": 0,
+          "faces": 232
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 198,
+          "bones": 0,
+          "faces": 102
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 316,
+          "bones": 0,
+          "faces": 142
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 115,
+          "bones": 0,
+          "faces": 60
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 202,
+          "bones": 0,
+          "faces": 102
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 311,
+          "bones": 0,
+          "faces": 142
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 107,
+          "bones": 0,
+          "faces": 60
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 218,
+          "bones": 0,
+          "faces": 172
+        },
+        {
+          "name": "Head_OuterCage",
+          "vertices": 1278,
+          "bones": 0,
+          "faces": 630
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "LeftUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "UpperTorso_OuterCage",
+          "vertices": 824,
+          "bones": 0,
+          "faces": 412
+        },
+        {
+          "name": "LeftLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftUpperLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LowerTorso_OuterCage",
+          "vertices": 296,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "LeftLowerLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 222,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "RightHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "RightUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightLowerLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightFoot_OuterCage",
+          "vertices": 221,
+          "bones": 0,
+          "faces": 116
+        }
+      ],
+      "warnings": [
+        "MANY MATERIALS: 7 (budget: 5)",
+        "MANY MESHES: 32 (may cause draw call overhead)"
+      ]
+    },
+    {
+      "id": "LC_Man_Cage",
+      "name": "Man Cage",
+      "file": "models/clothing/LC_Man_Cage.glb",
+      "category": "clothing",
+      "file_size_mb": 0.97,
+      "total_vertices": 14215,
+      "total_faces": 7290,
+      "mesh_count": 33,
+      "node_count": 149,
+      "real_joint_count": 32,
+      "max_depth": 16,
+      "material_count": 4,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 983.2,
+      "vertex_buffer_kb": 888.4,
+      "index_buffer_kb": 85.4,
+      "bone_matrices_kb": 9.3,
+      "meshes": [
+        {
+          "name": "Hat_Att",
+          "vertices": 176,
+          "bones": 0,
+          "faces": 80
+        },
+        {
+          "name": "LeftGrip_Att",
+          "vertices": 157,
+          "bones": 0,
+          "faces": 80
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 2261,
+          "bones": 0,
+          "faces": 846
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 479,
+          "bones": 0,
+          "faces": 238
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 389,
+          "bones": 0,
+          "faces": 196
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 335,
+          "bones": 0,
+          "faces": 168
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 479,
+          "bones": 0,
+          "faces": 238
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 389,
+          "bones": 0,
+          "faces": 196
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 335,
+          "bones": 0,
+          "faces": 168
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 1133,
+          "bones": 0,
+          "faces": 678
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 475,
+          "bones": 0,
+          "faces": 234
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 299,
+          "bones": 0,
+          "faces": 172
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 416,
+          "bones": 0,
+          "faces": 224
+        },
+        {
+          "name": "RightFoot_Att",
+          "vertices": 176,
+          "bones": 0,
+          "faces": 80
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 473,
+          "bones": 0,
+          "faces": 234
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 300,
+          "bones": 0,
+          "faces": 172
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 416,
+          "bones": 0,
+          "faces": 224
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 751,
+          "bones": 0,
+          "faces": 372
+        },
+        {
+          "name": "RightFoot_OuterCage",
+          "vertices": 164,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "RightLowerLeg_OuterCage",
+          "vertices": 168,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightUpperLeg_OuterCage",
+          "vertices": 210,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 164,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "LeftLowerLeg_OuterCage",
+          "vertices": 169,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LowerTorso_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "LeftUpperLeg_OuterCage",
+          "vertices": 210,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "UpperTorso_OuterCage",
+          "vertices": 705,
+          "bones": 0,
+          "faces": 412
+        },
+        {
+          "name": "LeftUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "Head_OuterCage",
+          "vertices": 1278,
+          "bones": 0,
+          "faces": 630
+        }
+      ],
+      "warnings": [
+        "MANY MESHES: 33 (may cause draw call overhead)"
+      ]
+    },
+    {
+      "id": "LC_NeoClassicFemale",
+      "name": "NeoClassicFemale",
+      "file": "models/clothing/LC_NeoClassicFemale.glb",
+      "category": "clothing",
+      "file_size_mb": 0.81,
+      "total_vertices": 11410,
+      "total_faces": 11404,
+      "mesh_count": 32,
+      "node_count": 81,
+      "real_joint_count": 35,
+      "max_depth": 16,
+      "material_count": 4,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 851.8,
+      "vertex_buffer_kb": 713.1,
+      "index_buffer_kb": 133.6,
+      "bone_matrices_kb": 5.1,
+      "meshes": [
+        {
+          "name": "FaceCenter_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 1583,
+          "bones": 4,
+          "faces": 2426
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 396,
+          "bones": 7,
+          "faces": 640
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 163,
+          "bones": 4,
+          "faces": 208
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 162,
+          "bones": 4,
+          "faces": 224
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 239,
+          "bones": 2,
+          "faces": 298
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 159,
+          "bones": 4,
+          "faces": 208
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 152,
+          "bones": 4,
+          "faces": 224
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 248,
+          "bones": 2,
+          "faces": 298
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 360,
+          "bones": 6,
+          "faces": 564
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 362,
+          "bones": 4,
+          "faces": 610
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 353,
+          "bones": 4,
+          "faces": 590
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 327,
+          "bones": 2,
+          "faces": 500
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 363,
+          "bones": 4,
+          "faces": 610
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 345,
+          "bones": 4,
+          "faces": 590
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 326,
+          "bones": 2,
+          "faces": 500
+        },
+        {
+          "name": "Head_OuterCage",
+          "vertices": 1278,
+          "bones": 0,
+          "faces": 630
+        },
+        {
+          "name": "RightHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "RightLowerLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LowerTorso_OuterCage",
+          "vertices": 296,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "UpperTorso_OuterCage",
+          "vertices": 824,
+          "bones": 0,
+          "faces": 412
+        },
+        {
+          "name": "RightLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightFoot_OuterCage",
+          "vertices": 222,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "LeftLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftLowerLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 224,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "LeftUpperLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        }
+      ],
+      "warnings": [
+        "MANY MESHES: 32 (may cause draw call overhead)"
+      ]
+    },
+    {
+      "id": "LC_NeoClassicMale",
+      "name": "NeoClassicMale",
+      "file": "models/clothing/LC_NeoClassicMale.glb",
+      "category": "clothing",
+      "file_size_mb": 1.16,
+      "total_vertices": 10409,
+      "total_faces": 10622,
+      "mesh_count": 32,
+      "node_count": 80,
+      "real_joint_count": 34,
+      "max_depth": 16,
+      "material_count": 4,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 780.0,
+      "vertex_buffer_kb": 650.6,
+      "index_buffer_kb": 124.5,
+      "bone_matrices_kb": 5.0,
+      "meshes": [
+        {
+          "name": "FaceCenter_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "RightLowerLeg_OuterCage",
+          "vertices": 217,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LowerTorso_OuterCage",
+          "vertices": 296,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "UpperTorso_OuterCage",
+          "vertices": 705,
+          "bones": 0,
+          "faces": 412
+        },
+        {
+          "name": "Head_OuterCage",
+          "vertices": 1278,
+          "bones": 0,
+          "faces": 630
+        },
+        {
+          "name": "RightLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightFoot_OuterCage",
+          "vertices": 172,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "LeftLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperLeg_OuterCage",
+          "vertices": 272,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftLowerLeg_OuterCage",
+          "vertices": 216,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 172,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "LeftUpperLeg_OuterCage",
+          "vertices": 272,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 1416,
+          "bones": 4,
+          "faces": 2290
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 374,
+          "bones": 11,
+          "faces": 578
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 166,
+          "bones": 6,
+          "faces": 240
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 146,
+          "bones": 6,
+          "faces": 192
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 209,
+          "bones": 5,
+          "faces": 298
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 145,
+          "bones": 6,
+          "faces": 240
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 122,
+          "bones": 6,
+          "faces": 192
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 209,
+          "bones": 5,
+          "faces": 298
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 366,
+          "bones": 12,
+          "faces": 616
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 342,
+          "bones": 9,
+          "faces": 560
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 318,
+          "bones": 9,
+          "faces": 488
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 233,
+          "bones": 5,
+          "faces": 334
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 327,
+          "bones": 9,
+          "faces": 560
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 294,
+          "bones": 9,
+          "faces": 488
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 234,
+          "bones": 5,
+          "faces": 334
+        }
+      ],
+      "warnings": [
+        "MANY MESHES: 32 (may cause draw call overhead)"
+      ]
+    },
+    {
+      "id": "LCL_Pants_CargoPants_001",
+      "name": "Pants CargoPants 001",
+      "file": "models/clothing/LCL_Pants_CargoPants_001.glb",
+      "category": "clothing",
+      "file_size_mb": 0,
+      "total_vertices": 11743,
+      "total_faces": 6624,
+      "mesh_count": 4,
+      "node_count": 27,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 813.2,
+      "vertex_buffer_kb": 733.9,
+      "index_buffer_kb": 77.6,
+      "bone_matrices_kb": 1.7,
+      "meshes": [
+        {
+          "name": "WaistCenter_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Pants_CargoPants_001",
+          "vertices": 696,
+          "bones": 5,
+          "faces": 1132
+        },
+        {
+          "name": "Pants_CargoPants_001_InnerCage",
+          "vertices": 5403,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Pants_CargoPants_001_OuterCage",
+          "vertices": 5404,
+          "bones": 0,
+          "faces": 2690
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LCL_Pants_Female_Jeans_001",
+      "name": "Pants Female Jeans 001",
+      "file": "models/clothing/LCL_Pants_Female_Jeans_001.glb",
+      "category": "clothing",
+      "file_size_mb": 0.63,
+      "total_vertices": 12280,
+      "total_faces": 6972,
+      "mesh_count": 5,
+      "node_count": 23,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 850.6,
+      "vertex_buffer_kb": 767.5,
+      "index_buffer_kb": 81.7,
+      "bone_matrices_kb": 1.4,
+      "meshes": [
+        {
+          "name": "Pants_Female_Jeans_001_InnerCage",
+          "vertices": 5403,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Pants_Female_Jeans_001_OuterCage",
+          "vertices": 5406,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Pants_Female_Jeans_001",
+          "vertices": 2,
+          "bones": 2,
+          "faces": 1
+        },
+        {
+          "name": "Pants_Female_Jeans_001",
+          "vertices": 1229,
+          "bones": 6,
+          "faces": 1479
+        },
+        {
+          "name": "WaistCenter_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LC_RobloxBoy_Cage",
+      "name": "RobloxBoy Cage",
+      "file": "models/clothing/LC_RobloxBoy_Cage.glb",
+      "category": "clothing",
+      "file_size_mb": 1.3,
+      "total_vertices": 22438,
+      "total_faces": 9118,
+      "mesh_count": 33,
+      "node_count": 170,
+      "real_joint_count": 33,
+      "max_depth": 16,
+      "material_count": 5,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 1519.9,
+      "vertex_buffer_kb": 1402.4,
+      "index_buffer_kb": 106.9,
+      "bone_matrices_kb": 10.6,
+      "meshes": [
+        {
+          "name": "Hat_Att",
+          "vertices": 176,
+          "bones": 0,
+          "faces": 80
+        },
+        {
+          "name": "LeftGrip_Att",
+          "vertices": 173,
+          "bones": 0,
+          "faces": 80
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 2261,
+          "bones": 0,
+          "faces": 846
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 1595,
+          "bones": 0,
+          "faces": 532
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 612,
+          "bones": 0,
+          "faces": 240
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 714,
+          "bones": 0,
+          "faces": 294
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 1595,
+          "bones": 0,
+          "faces": 532
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 611,
+          "bones": 0,
+          "faces": 240
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 714,
+          "bones": 0,
+          "faces": 294
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 1889,
+          "bones": 0,
+          "faces": 674
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 842,
+          "bones": 0,
+          "faces": 340
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 847,
+          "bones": 0,
+          "faces": 320
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 1225,
+          "bones": 0,
+          "faces": 480
+        },
+        {
+          "name": "RightFoot_Att",
+          "vertices": 176,
+          "bones": 0,
+          "faces": 80
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 842,
+          "bones": 0,
+          "faces": 340
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 846,
+          "bones": 0,
+          "faces": 320
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 1225,
+          "bones": 0,
+          "faces": 480
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 697,
+          "bones": 0,
+          "faces": 256
+        },
+        {
+          "name": "RightHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "RightLowerLeg_OuterCage",
+          "vertices": 276,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LowerTorso_OuterCage",
+          "vertices": 296,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "UpperTorso_OuterCage",
+          "vertices": 823,
+          "bones": 0,
+          "faces": 412
+        },
+        {
+          "name": "Head_OuterCage",
+          "vertices": 1278,
+          "bones": 0,
+          "faces": 630
+        },
+        {
+          "name": "RightLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightFoot_OuterCage",
+          "vertices": 229,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "LeftLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftLowerLeg_OuterCage",
+          "vertices": 279,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 229,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "LeftUpperLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        }
+      ],
+      "warnings": [
+        "HIGH VERTEX COUNT: 22,438 (budget: 20,000)",
+        "MANY MESHES: 33 (may cause draw call overhead)"
+      ]
+    },
+    {
+      "id": "LC_RobloxGirl_Cage",
+      "name": "RobloxGirl Cage",
+      "file": "models/clothing/LC_RobloxGirl_Cage.glb",
+      "category": "clothing",
+      "file_size_mb": 1.24,
+      "total_vertices": 22083,
+      "total_faces": 8900,
+      "mesh_count": 33,
+      "node_count": 160,
+      "real_joint_count": 33,
+      "max_depth": 16,
+      "material_count": 5,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 1494.5,
+      "vertex_buffer_kb": 1380.2,
+      "index_buffer_kb": 104.3,
+      "bone_matrices_kb": 10.0,
+      "meshes": [
+        {
+          "name": "Hat_Att",
+          "vertices": 176,
+          "bones": 0,
+          "faces": 80
+        },
+        {
+          "name": "LeftGrip_Att",
+          "vertices": 173,
+          "bones": 0,
+          "faces": 80
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 2261,
+          "bones": 0,
+          "faces": 846
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 1538,
+          "bones": 0,
+          "faces": 520
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 642,
+          "bones": 0,
+          "faces": 244
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 644,
+          "bones": 0,
+          "faces": 253
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 1538,
+          "bones": 0,
+          "faces": 520
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 642,
+          "bones": 0,
+          "faces": 244
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 644,
+          "bones": 0,
+          "faces": 253
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 1905,
+          "bones": 0,
+          "faces": 674
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 903,
+          "bones": 0,
+          "faces": 360
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 802,
+          "bones": 0,
+          "faces": 280
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 1120,
+          "bones": 0,
+          "faces": 440
+        },
+        {
+          "name": "RightFoot_Att",
+          "vertices": 176,
+          "bones": 0,
+          "faces": 80
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 903,
+          "bones": 0,
+          "faces": 360
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 802,
+          "bones": 0,
+          "faces": 280
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 1120,
+          "bones": 0,
+          "faces": 440
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 697,
+          "bones": 0,
+          "faces": 256
+        },
+        {
+          "name": "RightHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "RightLowerLeg_OuterCage",
+          "vertices": 277,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LowerTorso_OuterCage",
+          "vertices": 294,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "UpperTorso_OuterCage",
+          "vertices": 822,
+          "bones": 0,
+          "faces": 412
+        },
+        {
+          "name": "Head_OuterCage",
+          "vertices": 1278,
+          "bones": 0,
+          "faces": 630
+        },
+        {
+          "name": "RightLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightFoot_OuterCage",
+          "vertices": 230,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "LeftLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftLowerLeg_OuterCage",
+          "vertices": 278,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 230,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "LeftUpperLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        }
+      ],
+      "warnings": [
+        "HIGH VERTEX COUNT: 22,083 (budget: 20,000)",
+        "MANY MESHES: 33 (may cause draw call overhead)"
+      ]
+    },
+    {
+      "id": "LC_RthroRealisticFemale_Afr",
+      "name": "RthroRealisticFemale Afr",
+      "file": "models/clothing/LC_RthroRealisticFemale_Afr.glb",
+      "category": "clothing",
+      "file_size_mb": 1.25,
+      "total_vertices": 14310,
+      "total_faces": 12110,
+      "mesh_count": 32,
+      "node_count": 69,
+      "real_joint_count": 34,
+      "max_depth": 10,
+      "material_count": 3,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 1040.6,
+      "vertex_buffer_kb": 894.4,
+      "index_buffer_kb": 141.9,
+      "bone_matrices_kb": 4.3,
+      "meshes": [
+        {
+          "name": "FaceFront_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Head_OuterCage",
+          "vertices": 1278,
+          "bones": 0,
+          "faces": 630
+        },
+        {
+          "name": "UpperTorso_OuterCage",
+          "vertices": 705,
+          "bones": 0,
+          "faces": 412
+        },
+        {
+          "name": "RightFoot_OuterCage",
+          "vertices": 172,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 172,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "RightUpperLeg_OuterCage",
+          "vertices": 236,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftUpperLeg_OuterCage",
+          "vertices": 236,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LowerTorso_OuterCage",
+          "vertices": 282,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "RightLowerLeg_OuterCage",
+          "vertices": 221,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftLowerLeg_OuterCage",
+          "vertices": 221,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "RightHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 189,
+          "bones": 3,
+          "faces": 304
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 166,
+          "bones": 3,
+          "faces": 264
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 471,
+          "bones": 2,
+          "faces": 724
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 222,
+          "bones": 3,
+          "faces": 364
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 511,
+          "bones": 2,
+          "faces": 828
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 189,
+          "bones": 3,
+          "faces": 304
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 166,
+          "bones": 3,
+          "faces": 264
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 511,
+          "bones": 2,
+          "faces": 828
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 222,
+          "bones": 3,
+          "faces": 364
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 471,
+          "bones": 2,
+          "faces": 724
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 1008,
+          "bones": 7,
+          "faces": 1124
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 332,
+          "bones": 4,
+          "faces": 500
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 201,
+          "bones": 4,
+          "faces": 326
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 201,
+          "bones": 4,
+          "faces": 326
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 4019,
+          "bones": 2,
+          "faces": 1952
+        }
+      ],
+      "warnings": [
+        "MANY MESHES: 32 (may cause draw call overhead)"
+      ]
+    },
+    {
+      "id": "LC_RthroRealisticMale_Afr",
+      "name": "RthroRealisticMale Afr",
+      "file": "models/clothing/LC_RthroRealisticMale_Afr.glb",
+      "category": "clothing",
+      "file_size_mb": 1.16,
+      "total_vertices": 12793,
+      "total_faces": 12738,
+      "mesh_count": 37,
+      "node_count": 165,
+      "real_joint_count": 35,
+      "max_depth": 17,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 959.1,
+      "vertex_buffer_kb": 799.6,
+      "index_buffer_kb": 149.3,
+      "bone_matrices_kb": 10.3,
+      "meshes": [
+        {
+          "name": "FaceFront_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftShoulder_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightShoulder_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftFoot_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightFoot_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 1077,
+          "bones": 4,
+          "faces": 1952
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 724,
+          "bones": 5,
+          "faces": 1126
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 316,
+          "bones": 4,
+          "faces": 470
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 170,
+          "bones": 3,
+          "faces": 266
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 170,
+          "bones": 3,
+          "faces": 266
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 163,
+          "bones": 3,
+          "faces": 260
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 425,
+          "bones": 2,
+          "faces": 670
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 233,
+          "bones": 3,
+          "faces": 386
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 425,
+          "bones": 2,
+          "faces": 670
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 221,
+          "bones": 4,
+          "faces": 360
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 221,
+          "bones": 4,
+          "faces": 360
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 233,
+          "bones": 3,
+          "faces": 386
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 583,
+          "bones": 2,
+          "faces": 916
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 583,
+          "bones": 2,
+          "faces": 916
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 163,
+          "bones": 3,
+          "faces": 260
+        },
+        {
+          "name": "Head_OuterCage",
+          "vertices": 1278,
+          "bones": 0,
+          "faces": 630
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "LeftLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftUpperLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LowerTorso_OuterCage",
+          "vertices": 296,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "LeftLowerLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 230,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "RightHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "RightLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightLowerLeg_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightFoot_OuterCage",
+          "vertices": 230,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "LeftUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "UpperTorso_OuterCage",
+          "vertices": 824,
+          "bones": 0,
+          "faces": 412
+        },
+        {
+          "name": "RightUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        }
+      ],
+      "warnings": [
+        "MANY MESHES: 37 (may cause draw call overhead)"
+      ]
+    },
+    {
+      "id": "LCL_Shirt_LongSleeve_Flannel_001",
+      "name": "Shirt LongSleeve Flannel 001",
+      "file": "models/clothing/LCL_Shirt_LongSleeve_Flannel_001.glb",
+      "category": "clothing",
+      "file_size_mb": 0.59,
+      "total_vertices": 12015,
+      "total_faces": 7048,
+      "mesh_count": 4,
+      "node_count": 23,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 835.0,
+      "vertex_buffer_kb": 750.9,
+      "index_buffer_kb": 82.6,
+      "bone_matrices_kb": 1.4,
+      "meshes": [
+        {
+          "name": "BodyFront_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Shirt_LongSleeve_Flannel_001_InnerCage",
+          "vertices": 5408,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Shirt_LongSleeve_Flannel_001_OuterCage",
+          "vertices": 5408,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Shirt_LongSleeve_Flannel_001",
+          "vertices": 959,
+          "bones": 9,
+          "faces": 1556
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LCL_Shoes_Skate_001",
+      "name": "Shoes Skate 001",
+      "file": "models/clothing/LCL_Shoes_Skate_001.glb",
+      "category": "clothing",
+      "file_size_mb": 0.96,
+      "total_vertices": 16826,
+      "total_faces": 8570,
+      "mesh_count": 6,
+      "node_count": 31,
+      "real_joint_count": 24,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 1154.0,
+      "vertex_buffer_kb": 1051.6,
+      "index_buffer_kb": 100.4,
+      "bone_matrices_kb": 1.9,
+      "meshes": [
+        {
+          "name": "Shoes_Skate_001_Right_InnerCage",
+          "vertices": 5408,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "LeftFoot_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Shoes_Skate_001_Right_OuterCage",
+          "vertices": 5409,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Shoes_Skate_001_Left_OuterCage",
+          "vertices": 5409,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Shoes_Skate_001_Right",
+          "vertices": 180,
+          "bones": 1,
+          "faces": 194
+        },
+        {
+          "name": "Shoes_Skate_001_Left",
+          "vertices": 180,
+          "bones": 1,
+          "faces": 194
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LCL_Shoes_Workboots_001",
+      "name": "Shoes Workboots 001",
+      "file": "models/clothing/LCL_Shoes_Workboots_001.glb",
+      "category": "clothing",
+      "file_size_mb": 1.0,
+      "total_vertices": 17288,
+      "total_faces": 9178,
+      "mesh_count": 6,
+      "node_count": 27,
+      "real_joint_count": 24,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 1189.7,
+      "vertex_buffer_kb": 1080.5,
+      "index_buffer_kb": 107.6,
+      "bone_matrices_kb": 1.7,
+      "meshes": [
+        {
+          "name": "LeftFoot_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Left_Shoes_Workboot_001_InnerCage",
+          "vertices": 5408,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Left_Shoes_Workboot_001",
+          "vertices": 409,
+          "bones": 2,
+          "faces": 498
+        },
+        {
+          "name": "Right_Shoes_Workboot_001",
+          "vertices": 413,
+          "bones": 2,
+          "faces": 498
+        },
+        {
+          "name": "Left_Shoes_Workboot_001_OuterCage",
+          "vertices": 5409,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Right_Shoes_Workboot_001_OuterCage",
+          "vertices": 5409,
+          "bones": 0,
+          "faces": 2690
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LCL_Shorts_Cargo_001",
+      "name": "Shorts Cargo 001",
+      "file": "models/clothing/LCL_Shorts_Cargo_001.glb",
+      "category": "clothing",
+      "file_size_mb": 0.64,
+      "total_vertices": 12583,
+      "total_faces": 7522,
+      "mesh_count": 4,
+      "node_count": 27,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 876.3,
+      "vertex_buffer_kb": 786.4,
+      "index_buffer_kb": 88.1,
+      "bone_matrices_kb": 1.7,
+      "meshes": [
+        {
+          "name": "Shorts_Cargo_001",
+          "vertices": 1527,
+          "bones": 6,
+          "faces": 2030
+        },
+        {
+          "name": "WaistCenter_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Shorts_Cargo_001_InnerCage",
+          "vertices": 5408,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Shorts_Cargo_001_OuterCage",
+          "vertices": 5408,
+          "bones": 0,
+          "faces": 2690
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LCL_Shorts_Female_Jeans_001",
+      "name": "Shorts Female Jeans 001",
+      "file": "models/clothing/LCL_Shorts_Female_Jeans_001.glb",
+      "category": "clothing",
+      "file_size_mb": 0.71,
+      "total_vertices": 14172,
+      "total_faces": 8320,
+      "mesh_count": 4,
+      "node_count": 23,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 984.7,
+      "vertex_buffer_kb": 885.8,
+      "index_buffer_kb": 97.5,
+      "bone_matrices_kb": 1.4,
+      "meshes": [
+        {
+          "name": "Shorts_Female_Jeans_001",
+          "vertices": 3116,
+          "bones": 4,
+          "faces": 2828
+        },
+        {
+          "name": "WaistCenter_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Shorts_Female_Jeans_001_InnerCage",
+          "vertices": 5408,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Shorts_Female_Jeans_001_OuterCage",
+          "vertices": 5408,
+          "bones": 0,
+          "faces": 2690
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LC_Skelly_Cage",
+      "name": "Skelly Cage",
+      "file": "models/clothing/LC_Skelly_Cage.glb",
+      "category": "clothing",
+      "file_size_mb": 0.85,
+      "total_vertices": 12087,
+      "total_faces": 5230,
+      "mesh_count": 34,
+      "node_count": 97,
+      "real_joint_count": 32,
+      "max_depth": 14,
+      "material_count": 8,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 822.8,
+      "vertex_buffer_kb": 755.4,
+      "index_buffer_kb": 61.3,
+      "bone_matrices_kb": 6.1,
+      "meshes": [
+        {
+          "name": "WaistBack_Att",
+          "vertices": 176,
+          "bones": 0,
+          "faces": 80
+        },
+        {
+          "name": "LeftGrip_Att",
+          "vertices": 176,
+          "bones": 0,
+          "faces": 80
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 122,
+          "bones": 0,
+          "faces": 44
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 306,
+          "bones": 0,
+          "faces": 108
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 202,
+          "bones": 0,
+          "faces": 68
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 122,
+          "bones": 0,
+          "faces": 44
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 305,
+          "bones": 0,
+          "faces": 108
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 202,
+          "bones": 0,
+          "faces": 68
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 1421,
+          "bones": 0,
+          "faces": 504
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 303,
+          "bones": 0,
+          "faces": 104
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 246,
+          "bones": 0,
+          "faces": 88
+        },
+        {
+          "name": "LeftShoulder_Att",
+          "vertices": 176,
+          "bones": 0,
+          "faces": 80
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 202,
+          "bones": 0,
+          "faces": 68
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 303,
+          "bones": 0,
+          "faces": 104
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 248,
+          "bones": 0,
+          "faces": 88
+        },
+        {
+          "name": "RightShoulder_Att",
+          "vertices": 176,
+          "bones": 0,
+          "faces": 80
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 202,
+          "bones": 0,
+          "faces": 68
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 1644,
+          "bones": 0,
+          "faces": 552
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 606,
+          "bones": 0,
+          "faces": 204
+        },
+        {
+          "name": "RightFoot_OuterCage",
+          "vertices": 172,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "RightLowerLeg_OuterCage",
+          "vertices": 221,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightUpperLeg_OuterCage",
+          "vertices": 236,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 172,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "LeftLowerLeg_OuterCage",
+          "vertices": 221,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LowerTorso_OuterCage",
+          "vertices": 280,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "LeftUpperLeg_OuterCage",
+          "vertices": 236,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "UpperTorso_OuterCage",
+          "vertices": 705,
+          "bones": 0,
+          "faces": 412
+        },
+        {
+          "name": "LeftUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "Head_OuterCage",
+          "vertices": 1278,
+          "bones": 0,
+          "faces": 630
+        }
+      ],
+      "warnings": [
+        "MANY MATERIALS: 8 (budget: 5)",
+        "MANY MESHES: 34 (may cause draw call overhead)"
+      ]
+    },
+    {
+      "id": "Skin_Weight_Transfer_Template_001",
+      "name": "Skin Weight Transfer Template 001",
+      "file": "models/clothing/Skin_Weight_Transfer_Template_001.glb",
+      "category": "clothing",
+      "file_size_mb": 0.23,
+      "total_vertices": 5197,
+      "total_faces": 2802,
+      "mesh_count": 2,
+      "node_count": 26,
+      "real_joint_count": 18,
+      "max_depth": 8,
+      "material_count": 1,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 359.3,
+      "vertex_buffer_kb": 324.8,
+      "index_buffer_kb": 32.8,
+      "bone_matrices_kb": 1.6,
+      "meshes": [
+        {
+          "name": "Hat_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "SkinWeightTransferTemplate",
+          "vertices": 4957,
+          "bones": 15,
+          "faces": 2690
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LCL_Skirt_Tennis_001",
+      "name": "Skirt Tennis 001",
+      "file": "models/clothing/LCL_Skirt_Tennis_001.glb",
+      "category": "clothing",
+      "file_size_mb": 0.34,
+      "total_vertices": 12077,
+      "total_faces": 6892,
+      "mesh_count": 4,
+      "node_count": 27,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 837.3,
+      "vertex_buffer_kb": 754.8,
+      "index_buffer_kb": 80.8,
+      "bone_matrices_kb": 1.7,
+      "meshes": [
+        {
+          "name": "Skirt_Tennis_001",
+          "vertices": 1061,
+          "bones": 6,
+          "faces": 1400
+        },
+        {
+          "name": "WaistCenter_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Skirt_Tennis_001_InnerCage",
+          "vertices": 5392,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Skirt_Tennis_001_OuterCage",
+          "vertices": 5384,
+          "bones": 0,
+          "faces": 2690
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "StationVisitor_BaseBody01",
+      "name": "StationVisitor BaseBody01",
+      "file": "models/clothing/StationVisitor_BaseBody01.glb",
+      "category": "clothing",
+      "file_size_mb": 0.81,
+      "total_vertices": 14020,
+      "total_faces": 13616,
+      "mesh_count": 37,
+      "node_count": 158,
+      "real_joint_count": 34,
+      "max_depth": 14,
+      "material_count": 3,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 1045.7,
+      "vertex_buffer_kb": 876.2,
+      "index_buffer_kb": 159.6,
+      "bone_matrices_kb": 9.9,
+      "meshes": [
+        {
+          "name": "FaceFront_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 1147,
+          "bones": 6,
+          "faces": 1952
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 733,
+          "bones": 11,
+          "faces": 1126
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 317,
+          "bones": 12,
+          "faces": 470
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 172,
+          "bones": 8,
+          "faces": 266
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 172,
+          "bones": 8,
+          "faces": 266
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 172,
+          "bones": 7,
+          "faces": 260
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 236,
+          "bones": 7,
+          "faces": 386
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 221,
+          "bones": 11,
+          "faces": 360
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 222,
+          "bones": 11,
+          "faces": 360
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 235,
+          "bones": 7,
+          "faces": 386
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 172,
+          "bones": 7,
+          "faces": 260
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 681,
+          "bones": 5,
+          "faces": 826
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 1101,
+          "bones": 7,
+          "faces": 1199
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 687,
+          "bones": 5,
+          "faces": 826
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 1100,
+          "bones": 7,
+          "faces": 1199
+        },
+        {
+          "name": "LeftGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftShoulder_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightShoulder_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftFoot_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightFoot_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "Head_OuterCage",
+          "vertices": 1278,
+          "bones": 0,
+          "faces": 630
+        },
+        {
+          "name": "UpperTorso_OuterCage",
+          "vertices": 715,
+          "bones": 0,
+          "faces": 412
+        },
+        {
+          "name": "RightFoot_OuterCage",
+          "vertices": 177,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 177,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "RightUpperLeg_OuterCage",
+          "vertices": 236,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftUpperLeg_OuterCage",
+          "vertices": 236,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LowerTorso_OuterCage",
+          "vertices": 283,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "RightLowerLeg_OuterCage",
+          "vertices": 221,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftLowerLeg_OuterCage",
+          "vertices": 221,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "RightHand_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 114
+        }
+      ],
+      "warnings": [
+        "MANY MESHES: 37 (may cause draw call overhead)"
+      ]
+    },
+    {
+      "id": "LCL_TShirt_LongSleeve_Raglan_001",
+      "name": "TShirt LongSleeve Raglan 001",
+      "file": "models/clothing/LCL_TShirt_LongSleeve_Raglan_001.glb",
+      "category": "clothing",
+      "file_size_mb": 0.58,
+      "total_vertices": 11922,
+      "total_faces": 6904,
+      "mesh_count": 4,
+      "node_count": 23,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 827.5,
+      "vertex_buffer_kb": 745.1,
+      "index_buffer_kb": 80.9,
+      "bone_matrices_kb": 1.4,
+      "meshes": [
+        {
+          "name": "LongSleeve_Raglan_001_InnerCage",
+          "vertices": 5408,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "LongSleeve_Raglan_001_OuterCage",
+          "vertices": 5408,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "LongSleeve_Raglan_001",
+          "vertices": 866,
+          "bones": 8,
+          "faces": 1412
+        },
+        {
+          "name": "BodyFront_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LCL_TShirt_TyeDye_001",
+      "name": "TShirt TyeDye 001",
+      "file": "models/clothing/LCL_TShirt_TyeDye_001.glb",
+      "category": "clothing",
+      "file_size_mb": 0.56,
+      "total_vertices": 11681,
+      "total_faces": 6462,
+      "mesh_count": 4,
+      "node_count": 23,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 807.2,
+      "vertex_buffer_kb": 730.1,
+      "index_buffer_kb": 75.7,
+      "bone_matrices_kb": 1.4,
+      "meshes": [
+        {
+          "name": "TShirt_TyeDye_001_InnerCage",
+          "vertices": 5408,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "TShirt_TyeDye_001_OuterCage",
+          "vertices": 5408,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "TShirt_TyeDye_001",
+          "vertices": 625,
+          "bones": 6,
+          "faces": 970
+        },
+        {
+          "name": "BodyFront_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LCL_Tshirt_ArmyPrint_001",
+      "name": "Tshirt ArmyPrint 001",
+      "file": "models/clothing/LCL_Tshirt_ArmyPrint_001.glb",
+      "category": "clothing",
+      "file_size_mb": 0,
+      "total_vertices": 11706,
+      "total_faces": 6514,
+      "mesh_count": 4,
+      "node_count": 23,
+      "real_joint_count": 21,
+      "max_depth": 8,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 809.4,
+      "vertex_buffer_kb": 731.6,
+      "index_buffer_kb": 76.3,
+      "bone_matrices_kb": 1.4,
+      "meshes": [
+        {
+          "name": "Tshirt_ArmyPrint_001_InnerCage",
+          "vertices": 5403,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Tshirt_ArmyPrint_001_OuterCage",
+          "vertices": 5403,
+          "bones": 0,
+          "faces": 2690
+        },
+        {
+          "name": "Tshirt_ArmyPrint_001",
+          "vertices": 660,
+          "bones": 6,
+          "faces": 1022
+        },
+        {
+          "name": "BodyFront_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "LCL_Woman_Cage",
+      "name": "Woman Cage",
+      "file": "models/clothing/LCL_Woman_Cage.glb",
+      "category": "clothing",
+      "file_size_mb": 0.55,
+      "total_vertices": 8002,
+      "total_faces": 6234,
+      "mesh_count": 36,
+      "node_count": 72,
+      "real_joint_count": 34,
+      "max_depth": 9,
+      "material_count": 3,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 577.7,
+      "vertex_buffer_kb": 500.1,
+      "index_buffer_kb": 73.1,
+      "bone_matrices_kb": 4.5,
+      "meshes": [
+        {
+          "name": "Root_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "RightGrip_Att",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 112
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 4,
+          "bones": 0,
+          "faces": 3
+        },
+        {
+          "name": "LeftFoot_Geo",
+          "vertices": 239,
+          "bones": 0,
+          "faces": 228
+        },
+        {
+          "name": "LeftLowerLeg_Geo",
+          "vertices": 144,
+          "bones": 0,
+          "faces": 124
+        },
+        {
+          "name": "LeftUpperLeg_Geo",
+          "vertices": 211,
+          "bones": 0,
+          "faces": 222
+        },
+        {
+          "name": "Head_Geo",
+          "vertices": 316,
+          "bones": 0,
+          "faces": 216
+        },
+        {
+          "name": "RightHand_Geo",
+          "vertices": 206,
+          "bones": 0,
+          "faces": 254
+        },
+        {
+          "name": "RightLowerArm_Geo",
+          "vertices": 118,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "RightUpperArm_Geo",
+          "vertices": 128,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "LeftHand_Geo",
+          "vertices": 207,
+          "bones": 0,
+          "faces": 254
+        },
+        {
+          "name": "LeftLowerArm_Geo",
+          "vertices": 114,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "LeftUpperArm_Geo",
+          "vertices": 122,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "UpperTorso_Geo",
+          "vertices": 453,
+          "bones": 0,
+          "faces": 598
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 6,
+          "bones": 0,
+          "faces": 5
+        },
+        {
+          "name": "RightFoot_Geo",
+          "vertices": 235,
+          "bones": 0,
+          "faces": 226
+        },
+        {
+          "name": "RightLowerLeg_Geo",
+          "vertices": 144,
+          "bones": 0,
+          "faces": 124
+        },
+        {
+          "name": "RightUpperLeg_Geo",
+          "vertices": 210,
+          "bones": 0,
+          "faces": 222
+        },
+        {
+          "name": "LowerTorso_Geo",
+          "vertices": 189,
+          "bones": 0,
+          "faces": 252
+        },
+        {
+          "name": "Head_OuterCage",
+          "vertices": 1212,
+          "bones": 0,
+          "faces": 630
+        },
+        {
+          "name": "LeftUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "LeftUpperLeg_OuterCage",
+          "vertices": 157,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftLowerLeg_OuterCage",
+          "vertices": 129,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 4,
+          "bones": 0,
+          "faces": 2
+        },
+        {
+          "name": "LeftFoot_OuterCage",
+          "vertices": 179,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "RightHand_OuterCage",
+          "vertices": 230,
+          "bones": 0,
+          "faces": 114
+        },
+        {
+          "name": "RightUpperArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        },
+        {
+          "name": "RightLowerLeg_OuterCage",
+          "vertices": 129,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "RightFoot_OuterCage",
+          "vertices": 159,
+          "bones": 0,
+          "faces": 116
+        },
+        {
+          "name": "UpperTorso_OuterCage",
+          "vertices": 675,
+          "bones": 0,
+          "faces": 412
+        },
+        {
+          "name": "LowerTorso_OuterCage",
+          "vertices": 234,
+          "bones": 0,
+          "faces": 148
+        },
+        {
+          "name": "RightUpperLeg_OuterCage",
+          "vertices": 157,
+          "bones": 0,
+          "faces": 140
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 7,
+          "bones": 0,
+          "faces": 4
+        },
+        {
+          "name": "LeftHand_OuterCage",
+          "vertices": 244,
+          "bones": 0,
+          "faces": 110
+        },
+        {
+          "name": "LeftLowerArm_OuterCage",
+          "vertices": 240,
+          "bones": 0,
+          "faces": 120
+        }
+      ],
+      "warnings": [
+        "MANY MESHES: 36 (may cause draw call overhead)"
+      ]
+    }
+  ],
+  "cage_deformers": [
+    {
+      "id": "bend",
+      "name": "bend",
+      "file": "models/cage_deformers/bend.glb",
+      "category": "cage_deformers",
+      "file_size_mb": 0,
+      "total_vertices": 2835,
+      "total_faces": 3840,
+      "mesh_count": 2,
+      "node_count": 7,
+      "real_joint_count": 3,
+      "max_depth": 5,
+      "material_count": 1,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 222.6,
+      "vertex_buffer_kb": 177.2,
+      "index_buffer_kb": 45.0,
+      "bone_matrices_kb": 0.4,
+      "meshes": [
+        {
+          "name": "target_OuterCage",
+          "vertices": 486,
+          "bones": 0,
+          "faces": 768
+        },
+        {
+          "name": "target",
+          "vertices": 2349,
+          "bones": 0,
+          "faces": 3072
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "cube",
+      "name": "cube",
+      "file": "models/cage_deformers/cube.glb",
+      "category": "cage_deformers",
+      "file_size_mb": 0,
+      "total_vertices": 2332,
+      "total_faces": 3840,
+      "mesh_count": 2,
+      "node_count": 7,
+      "real_joint_count": 3,
+      "max_depth": 5,
+      "material_count": 1,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 191.2,
+      "vertex_buffer_kb": 145.8,
+      "index_buffer_kb": 45.0,
+      "bone_matrices_kb": 0.4,
+      "meshes": [
+        {
+          "name": "target_OuterCage",
+          "vertices": 486,
+          "bones": 0,
+          "faces": 768
+        },
+        {
+          "name": "target",
+          "vertices": 1846,
+          "bones": 0,
+          "faces": 3072
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "diamond",
+      "name": "diamond",
+      "file": "models/cage_deformers/diamond.glb",
+      "category": "cage_deformers",
+      "file_size_mb": 0,
+      "total_vertices": 562,
+      "total_faces": 788,
+      "mesh_count": 2,
+      "node_count": 7,
+      "real_joint_count": 3,
+      "max_depth": 5,
+      "material_count": 1,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 44.8,
+      "vertex_buffer_kb": 35.1,
+      "index_buffer_kb": 9.2,
+      "bone_matrices_kb": 0.4,
+      "meshes": [
+        {
+          "name": "target_OuterCage",
+          "vertices": 522,
+          "bones": 0,
+          "faces": 768
+        },
+        {
+          "name": "target",
+          "vertices": 40,
+          "bones": 0,
+          "faces": 20
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "genie",
+      "name": "genie",
+      "file": "models/cage_deformers/genie.glb",
+      "category": "cage_deformers",
+      "file_size_mb": 0,
+      "total_vertices": 2844,
+      "total_faces": 3840,
+      "mesh_count": 2,
+      "node_count": 7,
+      "real_joint_count": 3,
+      "max_depth": 5,
+      "material_count": 1,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 223.2,
+      "vertex_buffer_kb": 177.8,
+      "index_buffer_kb": 45.0,
+      "bone_matrices_kb": 0.4,
+      "meshes": [
+        {
+          "name": "target_OuterCage",
+          "vertices": 486,
+          "bones": 0,
+          "faces": 768
+        },
+        {
+          "name": "target",
+          "vertices": 2358,
+          "bones": 0,
+          "faces": 3072
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "melt",
+      "name": "melt",
+      "file": "models/cage_deformers/melt.glb",
+      "category": "cage_deformers",
+      "file_size_mb": 0,
+      "total_vertices": 4346,
+      "total_faces": 3840,
+      "mesh_count": 2,
+      "node_count": 7,
+      "real_joint_count": 3,
+      "max_depth": 5,
+      "material_count": 1,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 317.1,
+      "vertex_buffer_kb": 271.6,
+      "index_buffer_kb": 45.0,
+      "bone_matrices_kb": 0.4,
+      "meshes": [
+        {
+          "name": "target_OuterCage",
+          "vertices": 552,
+          "bones": 0,
+          "faces": 768
+        },
+        {
+          "name": "target",
+          "vertices": 3794,
+          "bones": 0,
+          "faces": 3072
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "roblox_cube_caged",
+      "name": "roblox cube caged",
+      "file": "models/cage_deformers/roblox_cube_caged.glb",
+      "category": "cage_deformers",
+      "file_size_mb": 0,
+      "total_vertices": 2293,
+      "total_faces": 3576,
+      "mesh_count": 3,
+      "node_count": 12,
+      "real_joint_count": 4,
+      "max_depth": 6,
+      "material_count": 2,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 186.0,
+      "vertex_buffer_kb": 143.3,
+      "index_buffer_kb": 41.9,
+      "bone_matrices_kb": 0.8,
+      "meshes": [
+        {
+          "name": "cube",
+          "vertices": 1321,
+          "bones": 0,
+          "faces": 2040
+        },
+        {
+          "name": "cube_InnerCage",
+          "vertices": 486,
+          "bones": 0,
+          "faces": 768
+        },
+        {
+          "name": "cube_OuterCage",
+          "vertices": 486,
+          "bones": 0,
+          "faces": 768
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "sphere",
+      "name": "sphere",
+      "file": "models/cage_deformers/sphere.glb",
+      "category": "cage_deformers",
+      "file_size_mb": 0,
+      "total_vertices": 925,
+      "total_faces": 1528,
+      "mesh_count": 2,
+      "node_count": 7,
+      "real_joint_count": 3,
+      "max_depth": 5,
+      "material_count": 1,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 76.2,
+      "vertex_buffer_kb": 57.8,
+      "index_buffer_kb": 17.9,
+      "bone_matrices_kb": 0.4,
+      "meshes": [
+        {
+          "name": "target_OuterCage",
+          "vertices": 486,
+          "bones": 0,
+          "faces": 768
+        },
+        {
+          "name": "target",
+          "vertices": 439,
+          "bones": 0,
+          "faces": 760
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "testmy",
+      "name": "testmy",
+      "file": "models/cage_deformers/testmy.glb",
+      "category": "cage_deformers",
+      "file_size_mb": 0,
+      "total_vertices": 24,
+      "total_faces": 12,
+      "mesh_count": 1,
+      "node_count": 3,
+      "real_joint_count": 2,
+      "max_depth": 2,
+      "material_count": 1,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 1.8,
+      "vertex_buffer_kb": 1.5,
+      "index_buffer_kb": 0.1,
+      "bone_matrices_kb": 0.2,
+      "meshes": [
+        {
+          "name": "pCube1",
+          "vertices": 24,
+          "bones": 0,
+          "faces": 12
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": "twist",
+      "name": "twist",
+      "file": "models/cage_deformers/twist.glb",
+      "category": "cage_deformers",
+      "file_size_mb": 0,
+      "total_vertices": 3564,
+      "total_faces": 3840,
+      "mesh_count": 2,
+      "node_count": 7,
+      "real_joint_count": 3,
+      "max_depth": 5,
+      "material_count": 1,
+      "texture_count": 0,
+      "total_gpu_memory_kb": 268.2,
+      "vertex_buffer_kb": 222.8,
+      "index_buffer_kb": 45.0,
+      "bone_matrices_kb": 0.4,
+      "meshes": [
+        {
+          "name": "target_OuterCage",
+          "vertices": 486,
+          "bones": 0,
+          "faces": 768
+        },
+        {
+          "name": "target",
+          "vertices": 3078,
+          "bones": 0,
+          "faces": 3072
+        }
+      ],
+      "warnings": []
+    }
+  ]
+}
